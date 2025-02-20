@@ -84,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5550 5250 5200
 Wire Wire Line
-	4750 4350 4250 4350
+	4750 4350 4650 4350
 Wire Wire Line
 	4250 4350 4250 5600
 Wire Wire Line
@@ -143,4 +143,23 @@ Wire Wire Line
 	5250 4350 5350 4350
 Wire Wire Line
 	5350 4350 5350 4700
+$Comp
+L Device:C C1
+U 1 1 67B65F50
+P 4650 4550
+F 0 "C1" H 4765 4596 50  0000 L CNN
+F 1 "C" H 4765 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4688 4400 50  0001 C CNN
+F 3 "~" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4400 4650 4350
+Connection ~ 4650 4350
+Wire Wire Line
+	4650 4350 4250 4350
+Wire Wire Line
+	4650 4700 4750 4700
+Connection ~ 4750 4700
 $EndSCHEMATC
